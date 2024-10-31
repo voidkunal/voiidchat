@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+
+box-sizing: border-box;
+
+text-decoration: none;
+
+border: none;
+
+outline: none;
+
+scroll-behavior: smooth;
+
+font-family: 'Nunito', sans-serif;
+
+}
+
+body{
+    background-color: #D3D3D3;
+}
+
+
+.navbar {
+    background-color: #72BF78;
+    width: 100%;
+    height: 30vh; 
+    display: flex;
+    align-items: center;
+    padding: 0 20px; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.logo {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    overflow: hidden; 
+}
+
+.sitename {
+    margin-left: 15px; 
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+
+.open {
+    width: 80%;
+    height: 50vh;
+    margin-left: 65px;
+    margin-top: 100px;
+    box-shadow: rgba(0, 0, 0, 0.2);
+    border: 2px solid hsl(158, 80%, 60%);
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Left parts */
+.open .part1 {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+/* right parts */
+.open .part2 {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+.open .left {
+    background-color: whitesmoke; 
+}
+
+.open .right {
+    background-color: whitesmoke; 
+}
+
+.open .part1 {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    justify-content: center;
+    padding-left: 20px; 
+    padding-bottom: 0px;
+    color: #000;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+/* qr code image */
+
+
+#qr{
+    display: flex;
+    width: 50%;
+}
+
+/* left side text align*/
+
+#use, #Guide1, #Guide2, #Guide3, #Guide4 {
+    margin-bottom: 15px; 
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
